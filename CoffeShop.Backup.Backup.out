@@ -1,0 +1,85 @@
+SIMAN Run Controller.
+
+6.0 Hours>
+                                      ARENA Simulation Results
+                                       M_o - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/24/2023
+Analyst: Windows User                                                Model revision date: 5/24/2023
+
+Replication ended at time      : 6.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+customers.VATime                            3.5000     (Insuf)    3.5000     3.5000          1    
+customers.NVATime                           .00000     (Insuf)    .00000     .00000          1    
+customers.WaitTime                          .00000     (Insuf)    .00000     .00000          1    
+customers.TranTime                          2.0000     (Insuf)    2.0000     2.0000          1    
+customers.OtherTime                         .00000     (Insuf)    .00000     .00000          1    
+customers.TotalTime                         5.5000     (Insuf)    5.5000     5.5000          1    
+washing.Queue.WaitingTime                       --         --         --         --          0
+prepair coffe.Queue.WaitingTime             2.3358     (Insuf)    .00000     4.8782          5    
+drinking table N3.Queue.WaitingTime             --         --         --         --          0
+drinking table N2.Queue.WaitingTime             --         --         --         --          0
+drinking table N1.Queue.WaitingTime         .25000     (Insuf)    .00000     .50000          2    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+customers.WIP                               6.4586     (Insuf)    .00000     10.000     9.0000    
+T1.NumberBusy                               .41667     (Insuf)    .00000     1.0000     1.0000    
+T1.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+T1.Utilization                              .41667     (Insuf)    .00000     1.0000     1.0000    
+T3.NumberBusy                               .00000     (Insuf)    .00000     .00000     .00000    
+T3.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+T3.Utilization                              .00000     (Insuf)    .00000     .00000     .00000    
+T2.NumberBusy                               .00000     (Insuf)    .00000     .00000     .00000    
+T2.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+T2.Utilization                              .00000     (Insuf)    .00000     .00000     .00000    
+barisita.NumberBusy                         .00000     (Insuf)    .00000     .00000     .00000    
+barisita.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+barisita.Utilization                        .00000     (Insuf)    .00000     .00000     .00000    
+customer.NumberBusy                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+customer.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+customer.Utilization                        1.0000     (Insuf)    .00000     1.0000     1.0000    
+class cleaning.NumberBusy                   .00000     (Insuf)    .00000     .00000     .00000    
+class cleaning.NumberScheduled              40.000     (Insuf)    40.000     40.000     40.000    
+class cleaning.Utilization                  .00000     (Insuf)    .00000     .00000     .00000    
+washing.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
+prepair coffe.Queue.NumberInQueue           3.9586     (Insuf)    .00000     6.0000     4.0000    
+drinking table N3.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+drinking table N2.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+drinking table N1.Queue.NumberInQueue       .08333     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+customers.NumberIn                          10.000    
+customers.NumberOut                         1.0000    
+T1.NumberSeized                             2.0000    
+T1.ScheduledUtilization                     .41667    
+T3.NumberSeized                             .00000    
+T3.ScheduledUtilization                     .00000    
+T2.NumberSeized                             .00000    
+T2.ScheduledUtilization                     .00000    
+barisita.NumberSeized                       .00000    
+barisita.ScheduledUtilization               .00000    
+customer.NumberSeized                       5.0000    
+customer.ScheduledUtilization               1.0000    
+class cleaning.NumberSeized                 .00000    
+class cleaning.ScheduledUtilization         .00000    
+System.NumberOut                            1.0000    
+
+
+Simulation run time: 0.15 minutes.
+Simulation run complete.

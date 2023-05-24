@@ -1,0 +1,23 @@
+[RESOURCES]
+T1
+T3
+T2
+barisita
+customer
+class cleaning
+[VARIABLES]
+washing.NumberIn
+arrival customers.NumberOut
+drinking table N3.NumberIn
+drinking table N2.NumberIn
+drinking table N1.NumberIn
+drinking table N3.NumberOut
+drinking table N2.NumberOut
+drinking table N1.NumberOut
+washing.NumberOut
+Exit.NumberOut
+prepair coffe.NumberOut
+prepair coffe.NumberIn
+Separate 1.NumberOut Orig
+exit class.NumberOut
+Separate 1.NumberOut Dup
